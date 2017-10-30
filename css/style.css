@@ -23,7 +23,8 @@ svg {
 
 .name {
   font-size: 18px;
-  padding: 30px 0; }
+  padding: 30px 0;
+  margin: 0; }
 
 .mission {
   padding: 45px 0 40px 0;
@@ -95,7 +96,6 @@ svg {
 
 .sectionName {
   font-size: 14px;
-  font-weight: bold;
   text-transform: uppercase; }
 
 .footer__info {
@@ -106,10 +106,10 @@ svg {
 
 .header {
   background-image: url("../images/backgroundimage.jpg");
-  height: 60vw;
+  height: 50vw;
   min-height: 160px;
   overflow: hidden;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
 
