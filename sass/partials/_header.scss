@@ -1,0 +1,29 @@
+.header {
+  background-image: url('../images/backgroundimage.jpg');
+  height: 660px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topLinks {
+  margin-top: 30px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialMediaLink {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.logo {
+  height: 70px;
+}

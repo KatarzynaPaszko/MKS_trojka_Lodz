@@ -1,0 +1,19 @@
+.footer {
+  background-color: $third-color;
+  padding: 40px 0;
+  color: #ffffff;
+  & p {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+}
+
+.sectionName {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer__info {
+  margin-top: 30px;
+}
