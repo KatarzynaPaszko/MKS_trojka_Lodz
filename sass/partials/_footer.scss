@@ -1,13 +1,15 @@
 .footer {
   background-color: $third-color;
-  padding: 40px 0;
-  color: #ffffff;
+  padding: 20px 0;
+
   & section {
     margin-top: 30px;
+    color: white;
   }
   & p {
     margin-bottom: 0;
     font-size: 14px;
+    color: white;
   }
 }
 
@@ -19,4 +21,8 @@
 
 .footer__info {
   margin-top: 30px;
+}
+
+.accent {
+  font-size: 18px;
 }
