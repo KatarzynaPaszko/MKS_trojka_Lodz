@@ -25,8 +25,14 @@ svg {
   padding: 30px 0; }
 
 .mission {
-  padding: 45px 0 40px 0; }
+  padding: 45px 0 40px 0;
+  text-align: center; }
+  .mission svg {
+    margin: 20px 0; }
 
+@media only screen and (max-width: 576px) {
+  .mission h3 {
+    font-size: 16px; } }
 .news__title {
   font-size: 18px;
   padding: 55px 0 50px 0; }
@@ -47,12 +53,13 @@ svg {
 .download {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase; }
   .download section {
-    padding: 50px; }
+    padding: 40px; }
   .download section a:hover {
     text-decoration: none; }
     .download section a:hover svg {
@@ -65,12 +72,18 @@ svg {
   padding: 75px; }
   .logos img {
     max-height: 75px;
-    margin: 0 60px; }
+    margin: 20px 60px; }
 
+@media only screen and (max-width: 576px) {
+  .logos img {
+    margin: 30px 10px;
+    max-width: 100%; } }
 .footer {
   background-color: #4b4b4d;
   padding: 40px 0;
   color: #ffffff; }
+  .footer section {
+    margin-top: 30px; }
   .footer p {
     margin-bottom: 0;
     font-size: 14px; }
@@ -85,7 +98,8 @@ svg {
 
 .header {
   background-image: url("../images/backgroundimage.jpg");
-  height: 660px;
+  height: 60vw;
+  min-height: 160px;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,10 +108,15 @@ svg {
 .topLinks {
   margin-top: 30px;
   height: 70px;
-  overflow: hidden;
   display: flex;
   justify-content: space-between; }
 
+@media only screen and (max-width: 576px) {
+  .topLinks {
+    flex-wrap: wrap; }
+    .topLinks img {
+      z-index: 5;
+      max-width: 100%; } }
 .socialMediaLink {
   height: 40px;
   width: 40px;

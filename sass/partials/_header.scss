@@ -1,6 +1,7 @@
 .header {
   background-image: url('../images/backgroundimage.jpg');
-  height: 660px;
+  height: 60vw;
+  min-height: 160px;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,9 +11,20 @@
 .topLinks {
   margin-top: 30px;
   height: 70px;
-  overflow: hidden;
+  // overflow: hidden;
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 576px) {
+  .topLinks {
+    flex-wrap: wrap;
+    & img {
+      z-index: 5;
+      max-width: 100%;
+    }
+
+  }
 }
 
 .socialMediaLink {
