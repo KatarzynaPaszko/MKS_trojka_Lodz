@@ -100,7 +100,8 @@ svg {
   text-transform: uppercase; }
 
 .footer__info {
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-size: 11px; }
 
 .accent {
   font-size: 18px; }
