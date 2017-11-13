@@ -46,9 +46,20 @@ svg {
     padding: 10px 0 30px 0;
     font-size: 24px; }
 
-.video {
+.videoWrapper {
   border: 10px solid #ececed;
-  width: 100%; }
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .download__title {
   font-weight: 400;
@@ -116,7 +127,8 @@ svg {
   overflow: hidden;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  color: #fff;}
 
 .topLinks {
   margin-top: 30px;
@@ -126,7 +138,9 @@ svg {
 
 @media only screen and (max-width: 576px) {
   .topLinks {
-    flex-wrap: wrap; }
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
     .topLinks img {
       z-index: 5;
       max-width: 100%; } }
